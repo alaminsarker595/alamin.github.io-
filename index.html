@@ -1,0 +1,124 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #e3f2fd; /* Light blue background */
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            background: #cfe2f3; /* Light blue inside border */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin: auto;
+            text-align: left;
+            border: 10px solid #002147;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Prime Bank Foundation</h2>
+            <h3>Education Support Programs</h3>
+            <h2>Scholarship Application Form for Research Students – 2025</h2>
+        </div>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label>Applicant’s Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Father’s Name:</label>
+            <input type="text" name="father_name" required>
+
+            <label>Mother’s Name:</label>
+            <input type="text" name="mother_name" required>
+
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+
+            <label>Gender:</label>
+            <select name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Present Address:</label>
+            <textarea name="present_address" rows="3" required></textarea>
+
+            <label>Permanent Address:</label>
+            <textarea name="permanent_address" rows="3" required></textarea>
+
+            <label>Academic Qualifications:</label>
+            <input type="text" name="ssc" placeholder="SSC Result">
+            <input type="text" name="hsc" placeholder="HSC Result">
+            <input type="text" name="bachelor" placeholder="Bachelor's Result">
+            <input type="text" name="masters" placeholder="Master's Result">
+
+            <label>Research Topic:</label>
+            <input type="text" name="research_topic" required>
+
+            <label>Research Institution:</label>
+            <input type="text" name="research_institution" required>
+
+            <label>Duration:</label>
+            <input type="text" name="duration" required>
+
+            <label>Session:</label>
+            <input type="text" name="session" required>
+
+            <label>Objectives and Social Benefits of the Research:</label>
+            <textarea name="objectives" rows="4" required></textarea>
+
+            <label>Upload Passport Size Photo:</label>
+            <input type="file" name="photo" accept="image/*" required>
+
+            <label>Upload Academic Certificates:</label>
+            <input type="file" name="certificates" accept="application/pdf,image/*" multiple required>
+
+            <label>Upload Research Proposal (if required):</label>
+            <input type="file" name="research_proposal" accept="application/pdf,image/*">
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
